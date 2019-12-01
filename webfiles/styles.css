@@ -17,13 +17,13 @@
 .web-title {
   font-style: bold;
   font-size: 50px;
-  font-family: luminari;
+  font-family: candara;
 }
 
 .section-title {
   font-style: bold;
   font-size: 20px;
-  font-family: luminari;
+  font-family: candara;
 }
 
 
@@ -75,8 +75,8 @@
   padding-top: 40px;
   padding-left: 10px;
   font-size: 40px;
-  font-family: luminari;
-  font-style: bold;
+  font-family: candara;
+  font-weight: bold;
   color: rgb(0, 48, 143);
 }
 
@@ -84,25 +84,21 @@
   padding-top: 20px;
   padding-left: 10px;
   font-size: 20px;
-  font-family: luminari;
-  font-style: bold;
+  font-family: candara;
+  font-weight: bold;
   color: rgb(0, 48, 143);
 }
 
 .site_font {
-  font-family: luminari;
+  font-family: candara;
   font-size: 24px;
 }
 
 .description_font {
-  font-family: luminari;
+  font-family: candara;
   font-size: 18px;
 }
 
 .bold {
   font-weight: bold;
-}
-
-.border_inset {
-  border-block-style: dotted;
 }
