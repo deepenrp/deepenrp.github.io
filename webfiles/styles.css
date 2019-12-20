@@ -1,12 +1,15 @@
 /* Giving the body the specified background color, adding font sizes for the h1 and h3 elements we'll be using */
 
-.navbar {
-  padding: 25px;
-}
-
-
 .blue-background{
   background-color: rgb(0, 48, 143);
+}
+
+.white-background{
+  background-color: white;
+}
+
+.image-background{
+  background-image: url("images/brick_wall.jpg");
 }
 
 .silver-background{
