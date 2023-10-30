@@ -33,7 +33,7 @@
 
 .contact-info {
   font-style: bold;
-  font-size: 20px;
+  font-size: 30px;
   font-family: candara;
   color: limegreen;
 }
@@ -114,7 +114,7 @@
   font-size: 20px;
   font-family: candara;
   font-weight: bold;
-  color: rgb(0, 48, 143);
+  color: rgb(60, 125, 255);
 }
 
 .site_font {
@@ -131,3 +131,29 @@
   font-weight: bold;
 }
 
+.grid-header {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr; /* Three columns with the middle one taking up more space */
+  background-color: rgb(0, 36, 107); /* Background color for the header */
+  color: #fff; /* Text color */
+  padding: 30px; /* Padding for the header */
+  align-items: center; /* Center-align items vertically */
+}
+
+/* Define styles for grid items (header cells) */
+.grid-header-item {
+  text-align: center; /* Center-align the text in each cell */
+  padding: 10px; /* Padding for each cell */
+  border-bottom: 2px solid transparent; /* Add an underline that's initially transparent */
+  transition: border-color 0.3s; /* Smooth transition for the underline */
+}
+
+/* Hover effect for grid items */
+.grid-header-item:hover {
+  border-color: #fff; /* Change the underline color on hover */
+}
+
+/* Additional styling for specific cells if needed */
+.grid-header-item:nth-child(2) {
+  font-weight: bold; /* Make the middle cell text bold */
+}
